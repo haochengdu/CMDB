@@ -25,7 +25,7 @@ SECRET_KEY = 'rq=oi6@+(8f=p5y)i(3c@cpmj-t2gdq-t!o2y@et73p$bpo@az'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]  # 这表示接收所有同一局域网内的网络访问。
 
 
 # Application definition
