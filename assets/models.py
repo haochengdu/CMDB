@@ -4,7 +4,7 @@ from django.db import models
 
 
 class Asset(models.Model):
-    """    所有资产的共有数据表    """
+    """所有资产的共有数据表"""
     asset_type_choice = (
         ('server', '服务器'),
         ('networkdevice', '网络设备'),
@@ -64,7 +64,6 @@ class Server(models.Model):
         (1, '刀片机'),
         (2, '小型机'),
     )
-
     created_by_choice = (
         ('auto', '自动添加'),
         ('manual', '手工录入'),
